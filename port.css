@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+/*google font*/
+
+/*above make it responsive*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #e9dbd8;
+}
+
+nav {
+  background-color: #ff6787;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: auto;
+  width: 90%;
+}
+
+/*change text color all nav*/
+.navbar-nav a {
+  color: black;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+.navbar-nav a:hover {
+  color: white;
+}
+
+/*hover when click home it chnage color to white*/
+
+.fa-chevron-right {
+  margin-left: 10px;
+}
+/*move arrow to the right from contact me- arrow from front awesome*/
+.fa-chevron-down {
+  margin-left: 10px;
+}
+
+/*move arrow in download cv*/
+
+/*
+.backgroundChange{
+    background-color: coral;
+}
+class can chnage color of nav bar*/
+
+/*logo */
+
+/* green circle*/
+.navbar-brand img {
+  height: 80px;
+  width: 120px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+/*small box home contacts inside nav bar*/
+.navbar-nav {
+  margin-left: 200px;
+}
+
+.fa-bars {
+  font-size: 25px;
+  color: black;
+}
+
+.button-downloadCV {
+  /* height: 60px;
+    width: 200px;*/
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: transparent;
+  /*make background download cv to be the same as nav bar
+     if we not put trasparent it show white background*/
+
+  /*padding make box bigger if do not want box get bigger when use padding use box sizing*/
+  margin: -10px -50px 0px 100px; /*value top right bottom and left*/
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+/*main-page*/
+
+.mainPage-parent {
+}
+
+.circle {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background-color: #fdedec;
+  margin-left: -120px; /*move to the left give - if not give - it go to the right side*/
+  margin-top: 70px;
+  display: flex; /* make Tiparpron to center*/
+  align-items: center;
+  justify-content: center;
+}
+
+/*move tiparpron to center use h2*/
+.circle h2 {
+  margin-left: 30px;
+  font-weight: 700;
+  word-spacing: 10px;
+  font-size: 40px;
+  color: #ff6787;
+}
+
+.circle span {
+  margin-left: 40px;
+  font-size: 40px;
+}
+/*box of background*/
+.pic-child1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+/*image of background*/
+.pic-child1::before {
+  content: '';
+  position: absolute;
+  /* we use before -content-position absolute
+    to blur flower pic--also we need position relative on main class*/
+  background-image: url('https://images.unsplash.com/photo-1521062849558-8e32f69ba41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwcmluZyUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  /*cover for flower img*/
+  height: 80vh;
+  width: 100%;
+  filter: blur(5px);
+}
+
+.pic-child1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.facePics {
+  width: 400px;
+  height: 400px;
+  border: 10px solid pink;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.facePics img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* right side text section*/
+
+.text-child2 {
+  display: flex;
+  background-color: #fdedec;
+  height: 80vh;
+  flex-direction: column;
+
+  /*flex direction center make hello! from the side to be on top of the text*/
+}
+
+.contact-me {
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.contact-me:hover {
+  background-color: #ff6787;
+}
+
+/*social media*/
+
+.socialMedia i {
+  /*make social icons line up --do not put i next to class 
+      and use display block. --- i means icone*/
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #ff6787;
+}
+/*move box ofall social media to bottom-- look below use only class*/
+.socialMedia {
+  display: flex;
+  background-color: #e9dbd8;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+footer {
+  width: 100%;
+  border-top: 2px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 0px;
+  text-align: center;
+  background-color: #e9dbd8;
+}
+
+
+
+/*media queries ipad air*/
+
+@media screen and (max-width: 820px) {
+  /*box of background- change box smaller*/
+  .pic-child1 {
+    height: 50vh;
+  }
+  /*image of background*/
+  .pic-child1::before {
+    height: 50vh;
+  }
+  .circle {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-color: lightpink;
+    margin-left: 300px;
+    margin-top: 70px;
+    display: flex; /* make Tiparpron to center*/
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*move tiparpron to center use h2*/
+  .circle h2 {
+    margin-left: 30px;
+    font-weight: 700;
+    word-spacing: 10px;
+    font-size: 40px;
+    color: #ff6787;
+  }
+  .frontEnd {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .text-child2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .text-child2 h4 {
+    display: none;
+  }
+
+  .text-child2 {
+    display: flex;
+    background-color: #fdedec;
+    height: 50vh;
+    flex-direction: column;
+
+    /*flex direction center make hello! from the side to be on top of the text*/
+  }
+
+  .socialMedia {
+    display: flex;
+    background-color: #e9dbd8;
+    flex-direction: row; /*row is in line social media but column is for top to bottom */
+    align-items: center;
+    justify-content: center;
+  }
+  /*social media i is icon*/
+  .socialMedia i {
+    margin: 20px;
+  }
+
+  /*move cv download box*/
+  .button-downloadCV {
+    display: block;
+    margin: auto;
+  }
+}
+
+/*tablet mini*/
+@media screen and (max-width: 768px) {
+  .circle {
+    margin: 30px auto;
+    background-color: white;
+  }
+
+  .text-child2 {
+    height: auto;
+    padding: 30px;
+  }
+  .text-child2 h2,
+  h4,
+  p {
+    margin: 0px 50px;
+  }
+  .socialMedia {
+    display: flex;
+    background-color: #e9dbd8;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  /*social media i is icon*/
+  .socialMedia i {
+    margin: 20px;
+  }
+
+  .pic-child1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .pic-child1::before {
+    content: '';
+    position: absolute;
+    /* we use before -content-position absolute
+  to blur flower pic--also we need position relative on main class*/
+    background-image: url('https://images.unsplash.com/photo-1521062849558-8e32f69ba41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwcmluZyUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    /*cover for flower img*/
+    height: 50vh;
+    width: 100%;
+    filter: blur(5px);
+  }
+}
+/*big screen mobile phone*/
+@media screen and (max-width: 600px) {
+  .facePics {
+    width: 200px;
+    height: 200px;
+    border: 0px solid pink;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .facePics img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*small mobile phone*/
+@media screen and (max-width: 400px) {
+  .facePics {
+    width: 200px;
+    height: 200px;
+    border: 0px solid pink;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .facePics img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle {
+    height: 200px;
+    width: 200px;
+  }
+
+  .circle h2 span {
+    font-size: 24px;
+  }
+
+  .circle h2 {
+    font-size: 40px;
+  }
+
+  .text-child2 h2 {
+    font-size: 24px;
+  }
+  /*box of background*/
+  .pic-child1 {
+    height: 40vh;
+  }
+  /*image of background*/
+  .pic-child1::before {
+    height: 40vh;
+  }
+  /*nextline class move I to next line- use span and add class on html*/
+  .nextLine {
+    display: block;
+  }
+}

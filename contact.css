@@ -1,0 +1,158 @@
+.contact {
+  width: 500px;
+  margin-left: -270px;
+  margin-top: -150px;
+}
+.contact img {
+  width: 100%;
+}
+
+form {
+  /*margin-left:200px;*/
+  display: block;
+  margin: 200px auto 50px auto;
+  width: 70%;
+  padding: 20px;
+  height: 450px;
+  background-image: url('https://images.unsplash.com/photo-1523766775147-152d0d6e2adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3ByaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-position: top center;
+  background-blend-mode: overlay;
+}
+.lastName {
+  margin-left: 110px;
+}
+
+input[type='text'] {
+  width: 49%;
+}
+/*message bopx*/
+textarea {
+  width: 100%;
+}
+/*textarea is message box*/
+
+/*we increase size of email input box*/
+input[type='email'] {
+  width: 100%;
+}
+
+/*move send message box to center*/
+input[type='submit'] {
+  display: block;
+  margin: auto;
+}
+
+input[type='submit']:hover {
+  background-color: #ff6787;
+}
+
+/*contact information section*/
+.contactInfo {
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.contactInfo h3 {
+  margin-top: -50px;
+}
+
+.contactInfo a {
+  color: black;
+}
+
+.contact2 {
+  display: none;
+}
+/*github icon*/
+.fa-brands {
+  color: black;
+  font-size: 25px;
+}
+/*move link to the right*/
+.githubLink {
+  color: black;
+}
+
+/*ipad Air*/
+@media screen and (max-width: 820px) {
+  .contact2 {
+    width: 300px;
+    display: block;
+    margin: 80px auto -130px auto;
+  }
+  .contact2 img {
+    width: 100%;
+  }
+  .contact {
+    display: none;
+  }
+  .rightSide {
+    margin-top: -130px;
+  }
+  .lastName {
+    margin-left: 180px;
+  }
+}
+
+/*media queries for ipad*/
+@media screen and (max-width: 768px) {
+  .contact2 {
+    width: 500px;
+    display: block;
+    margin: 150px auto -130px auto;
+  }
+
+  .contact2 img {
+    width: 100%;
+  }
+  /*hide display none*/
+  .contact {
+    display: none;
+  }
+  /*rightside control the whole box of contact info*/
+  .rightSide {
+    margin-top: -130px;
+  }
+
+  /* code making nav not to drop for small size screen */
+  /* .parent {
+    margin-top: -100px;
+  }
+  */
+}
+/*mobile*/
+@media screen and (max-width: 600px) {
+  form {
+    /*margin-left:200px;*/
+
+    width: 90%;
+  }
+
+  .contact2 {
+    width: 300px;
+    display: block;
+    margin: 50px auto -150px auto;
+  }
+
+  .contactInfo {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 30px;
+  }
+  /*rightside control the whole box of contact info*/
+  .rightSide {
+    margin-top: -180px;
+  }
+  .githubLink {
+    margin-left: -15px;
+  }
+  .contactInfo h3 {
+    margin-top: 5px;
+  }
+  .lastName {
+    margin-left: 100px;
+  }
+}

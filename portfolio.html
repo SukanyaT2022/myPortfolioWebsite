@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="port.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="portfolio.css" />
+
+  <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+  <!--icon social media and icon from font awesome link-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet" />
+
+  <title>MainPage</title>
+</head>
+
+<body>
+  <!--navBar-->
+  <header>
+    <nav class="navbar navbar-expand-lg backgroundChange">
+      <!--important to remove- navbar-light so we can change text color on css-->
+      <!--style="background-color: pink--if put inline css-->
+      <a class="navbar-brand" href="index.html"><img src="RealLogo2.png"></a>
+      <!--add only 1 br so sukanya move to another line-->
+      <!--span tag we use for logo and small change-->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!--
+                <ul class="navbar-nav">
+                    -->
+        <!--put m-auto after nav bar inside""--move the whole bloc of home-resume to the center-->
+
+        <ul class="navbar-nav m-auto">
+          <!--move the whole bar home contact to right use mr to center use only m 
+          and ml for move to right side -->
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <!-- how to change color in line css--add style
+                   <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="aboutMe.html">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="react.html">React Projects</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="swift.html">IOS & Swift Projects</a>
+          </li>
+
+
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+          </li>
+        
+          <li class="nav-item">
+              <a class="nav-link" href="CVupdateAug2023.pdf"  download=""><button class="button-downloadCV">Download CV
+                      <i class="fa-solid fa-chevron-down"></i></button></a>
+          </li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--main page-->
+  <div class="mainboxProject reduceMargin">
+    <div class="row">
+      <div class="col-lg-8 smallBox">
+
+<!--start guess  words  project-->
+<div class="row my-2">
+  <div class="col-lg-5 orangeBox-leftside">
+    <div class="oceanPic">
+      <img src="https://cdn.pixabay.com/photo/2014/04/16/18/00/pixabay-325782_1280.jpg" alt="guessWord" />
+    </div>
+  </div>
+  <div class="col-lg-6 orangeBox-rightside">
+
+    <h4 class="project1">Guess Word Game</h4>
+    <h5>Built with:&nbsp;JavaScript, DynamicHTML, CSS and Bootstrap</h5>
+    <a href="https://guess-word-java-script.vercel.app/">Link</a>
+    <!--&nbsp; add space on html-->
+    <!--after host put url here-->
+
+  </div>
+</div>
+
+ <!--start BMI calculation  project-->
+ <div class="row my-2">
+  <div class="col-lg-5 orangeBox-leftside">
+    <div class="oceanPic">
+      <img src="https://cdn.pixabay.com/photo/2017/05/29/15/11/gymnast-stick-man-2353968_1280.png" alt="humanBody" />
+    </div>
+  </div>
+  <div class="col-lg-6 orangeBox-rightside">
+
+    <h4 class="project1">Body Mass Index (BMI) Calculation</h4>
+    <h5>Built with:&nbsp;JavaScript, DynamicHTML, CSS and Bootstrap</h5>
+    <a href="https://bmi-calculatation.vercel.app/">Link</a>
+    <!--&nbsp; add space on html-->
+    <!--after host put url here-->
+
+  </div>
+</div>
+
+ <!--start tic tac toe project-->
+ <div class="row my-2">
+  <div class="col-lg-5 orangeBox-leftside">
+    <div class="oceanPic">
+      <img src="https://cdn.pixabay.com/photo/2016/10/28/11/57/tic-tac-toe-1777859_1280.jpg" alt="tictactoe" />
+    </div>
+  </div>
+  <div class="col-lg-6 orangeBox-rightside">
+
+    <h4 class="project1">Tic Tac Toe</h4>
+    <h5>Built with:&nbsp;JavaScript, DynamicHTML, CSS and Bootstrap</h5>
+    <a href="https://tic-tac-605mcgzbr-sukanyat2022.vercel.app/">Link</a>
+    <!--&nbsp; add space on html-->
+    <!--after host put url here-->
+
+  </div>
+</div>
+
+
+
+
+
+ <!--start tuk tuk sauce project-->
+ <div class="row my-2">
+  <div class="col-lg-5 orangeBox-leftside">
+    <div class="oceanPic">
+      <img src="https://images.pexels.com/photos/4541339/pexels-photo-4541339.jpeg?auto=compress&cs=tinysrgb&w=800" alt="ocean" />
+    </div>
+  </div>
+  <div class="col-lg-6 orangeBox-rightside">
+
+    <h4 class="project1">Thai Food Ingredients Website</h4>
+    <h5>Built with:&nbsp;JavaScript, HTML & CSS and Bootstrap</h5>
+    <a href="https://elegant-marzipan-795171.netlify.app">Link</a>
+    <!--&nbsp; add space on html-->
+    <!--after host put url here-->
+
+  </div>
+</div>
+
+
+        <!--start project before 1-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img src="marshallPic.jpg" alt="speaker" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Commercial Website Marshall Speaker</h4>
+            <h5>Built with: HTML & CSS, Bootstrap, and JavaScript</h5>
+            <a href="https://cheery-sprinkles-fdc5fa.netlify.app ">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project before 1-->
+
+        <!--start project 2Travel-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img src="BG-MaldiveBoat copy.jpg" alt="ocean" />
+            </div>
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Travel Website</h4>
+            <h5>Built with:&nbsp;JavaScript, HTML & CSS and Bootstrap</h5>
+            <a href="https://exquisite-piroshki-2e9c8e.netlify.app">Link</a>
+            <!--&nbsp; add space on html-->
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 2Travel-->
+
+
+        <!--start project 3-national park-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1629985692757-48648f4f1fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8eWVsbG93c3RvbmUlMjBuYXRpb25hbCUyMHBhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                alt="nationalPark" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">National Park Website</h4>
+            <h5>Built with: HTML & CSS, Bootstrap, and JavaScript</h5>
+            <a href="https://ornate-cactus-5ee33c.netlify.app">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 3 national park website-->
+
+
+        <!--project4 TuxedoShop-->
+
+
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img src="TuxedoShop.jpg" alt="TuxedoShop" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Tuxedo Shop</h4>
+            <h5>Built with: HTML & CSS, Bootstrap, and JavaScript</h5>
+            <a href="https://meek-chimera-59f2b1.netlify.app">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+
+
+
+
+        <!--end project4 TuxedoShop-->
+
+        <!--start project 5 farm -->
+        <div class="row">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                alt="orange" />
+            </div>
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Farm Website</h4>
+            <h5>Built with: HTML & CSS and Bootstrap</h5>
+            <a href="https://www.koonmowfarm.com/">Link</a>
+            <!--after host put url here-->
+
+          </div>
+
+        </div>
+
+        <!--end project 5 farm website-->
+
+        <!--start project 2-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                alt="pizza" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Pizza Shop </h4>
+            <h5>Built with: Progressive Web Apps - Notifications, JavaScript, HTML & CSS</h5>
+            <a href="https://snazzy-biscuit-96e2c9.netlify.app">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 2-->
+
+        <!--start project 3-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="calculator">
+              <img src="calculator-removebg-preview.png" alt="whiteCalculator" />
+            </div>
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Calculator Project</h4>
+            <h5>Built with: JavaScript, HTML & CSS</h5>
+
+            <a href="https://tubular-stardust-a1a73f.netlify.app">Link</a>
+
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 3-->
+
+
+
+
+
+
+
+
+        <!--start project 4 piggy-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="piggy">
+              <img src="piggyNobackground.png" alt="moneyMachine" />
+            </div>
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Investment Website Project</h4>
+            <h5>Built with: JavaScript, HTML & CSS, and Bootstrap</h5>
+
+            <a href="https://631a1b01d78f1300749db2ee--playful-boba-c009b8.netlify.app/">Link</a>
+
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 4-->
+
+        <!--start project 5-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1585141239600-03449aab6e10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW4lMjBwcm9ncmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                alt="nationalPark" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Work in Progress</h4>
+            <h5>Built with: HTML & CSS, Bootstrap, and JavaScript</h5>
+            <a href="putlinkhere">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 5-->
+
+
+        <!--end project 6-->
+     
+      </div>
+
+    </div>
+
+  </div>
+
+
+ 
+  <!--footer-->
+
+  <!--social media section-->
+  <div class="socialMedia footerSocialMedia col-lg-12">
+    <a href=" ">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a href=" "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href=" "><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+</div>
+</div>
+
+<!--footer-->
+<!--hr tag crate line
+<hr>
+-->
+<footer>
+<p>copyright&copy 2022 Tiparpron Sukanya</p>
+<!--&copy give circle copy right-->
+</footer>
+
+
+  <!--java script-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

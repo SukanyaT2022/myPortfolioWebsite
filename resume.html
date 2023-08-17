@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="resume.css">
+
+    <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+    <!--icon social media and icon from font awesome link-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--navBar-->
+    <header>
+        <nav class="navbar navbar-expand-lg backgroundChange">
+            <!--important to remove- navbar-light so we can change text color on css-->
+            <!--style="background-color: pink--if put inline css-->
+
+            <a class="navbar-brand" href="index.html"><img src="RealLogo2.png"></a>
+            <!--add only 1 br so sukanya move to another line-->
+            <!--span tag we use for logo and small change-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+
+                <!--
+                <ul class="navbar-nav">
+                    -->
+                <!--put m-auto after nav bar inside""--move the whole bloc of home-resume to the center-->
+
+                <ul class="navbar-nav m-auto">
+                    <!--move the whole bar home contact to right use mr to center use only m 
+                    and ml for move to right side -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <!-- how to change color in line css--add style
+                             <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="react.html">React Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="swift.html">IOS & Swift Projects</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts</a>
+                    </li>
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="CVupdateAug2023.pdf" download=""><button class="button-downloadCV">Download CV
+                                <i class="fa-solid fa-chevron-down"></i></button></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!--left side box/ outside box-->
+        <!--side bar/ make Grid 90% resume 10%side bar/ boostrap/ total column 12 break to 11 and 1-->
+        <div class="container whiteBackground mt-5  p-0">
+            <!--mt is boostrap means margin top-->
+            <div class="row">
+                <div class="col-lg-12">
+
+
+                    <!--head section-->
+                    <div class="head">
+                        <h3 class="ml-4">Tiparpron Sukanya</h3>
+                        <!--ml is bootrap ml marginleft mr means right-->
+                        <h5 class="ml-4">Front End Developer</h5>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--grid for resume body page/Left side-->
+            <div class="row ">
+                <div class="col-lg-8">
+                    <!--lg is a main box-->
+
+                    <!--main box in experience side-->
+                    <div class="expe-edu px-3">
+                        <!--on bootstrap for padding one side and px for padding bothsides-->
+
+                        <p class="sum-experience-OnTop mt-4 pl-5">
+                            Motivated front-end developer. An associate degree in computer science, August 2023, Norwalk Community College. Two years’ experience with web development at NCC and personal projects, and self-taught through FreeCodeCamp.com and w3school. Seeking to use proven skills in HTML, CSS, Bootstrap, JavaScript, React.js, SQL, PHP to help businesses reach their goals.
+                        </p>
+<div class="PersonalInfoIpadPhone">
+    <h4 class="moveExperience">Personal Info</h4>
+    <hr>
+    <div class="contactMe ">
+
+        <h5>Address</h5>
+        <p>Connecticut</p>
+        <h5>Phone</h5>
+        <p><a href="tel:3474419148">347-441-9148</a></p>
+        <h5>E-mail</h5>
+        <p><a href="mailto:SukanyaT2022A@gmail.com">SukanyaT2022A@gmail.com</a></p>
+        <h5>LinkedIn</h5>
+        <p><a
+                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">www.linkedin.com/in/tiparpron-sukanya</a>
+        </p>
+        <h5>GitHub</h5>
+        <p><a
+                href="https://github.com/SukanyaT2022?tab=repositories">https://github.com/SukanyaT2022?tab=repositories</a>
+        </p>
+    </div>
+
+
+
+</div>
+
+
+
+                        <h4 class="mb-3 moveExperience">Experience</h4>
+                        <!--mb is bootrp class for margin bottom-->
+                        <hr>
+                        <!--hr make line-->
+                        <div class="bigBox-experience">
+                            <!--experience1-->
+                            <div class="year">
+                                <h6>2020 - 2023</h6>
+
+                            </div>
+                            <div class="expe-details">
+
+                                <h5>Computer Science Projects </h5>
+                                <h5>Norwalk Community College</h5>
+                                </h5>
+
+                                <address>Norwalk, Connecticut</address>
+                                <h6>Relevant Experiences:</h6>
+                                <ul class="targetLi">
+                                    <li>Collaborated with a team of students to create responsive website design for a women-owned custom tuxedo business: created wireframes, developed prototypes for a website, and built a project by HTML&CSS, JavaScript, and Bootstrap.
+                                    </li>
+
+                                    <li>Designed and built a responsive website for a farm business using HTML&CSS, JavaScript and Bootstrap which included developing pages, coding, and debugging.
+                                    </li>
+
+                                    <li>Constructed a static HTML file using PHP and MySQL to create a currency converter application that allowed the user to convert between two different currencies which performed the calculations in a dynamic fashion.
+                                    </li>
+                                </ul>
+
+                                <h6>Personal Projects:</h6>
+
+
+                                <ul>
+                                    <li>Creating an e-commerce website for a wine shop using React.js, Bootstrap, JavaScript, HTML, and CSS.
+                                    </li>
+                                    <li>Building an e-commerce website for children's fashion using JavaScript, React.js, Bootstrap-React, CSS, and HTML.
+                                    </li>
+
+                                    <li>Creating a Word Guessing Game (similar to Hangman) using Dynamic HTML, HTML, CSS, and JavaScript.
+                                    </li>
+
+                                    <li>Built a variant of Tic Tac Toe game using player images rather than x and o as well as giving a choice for player to select their own avatar, keeping all validation in place by integrating with Html, CSS, JavaScript, and Dynamic HTML.
+                                    </li>
+
+                                    <li>Created to - do list project, gallery images project, and shopping card project by using React.js, JavaScript, HTML, CSS and Bootstrap-React. Used understanding of React.js fundamentals to promote better component lift cycle practices.
+                                    </li>
+
+                                    <li>Created an e-commerce site to sell Asian food products. Used JavaScript, HTML, CSS, Bootstrap.
+                                    </li>
+
+                                    <li>Built a website to introduce myself using Bootstrap and custom HTML and CSS and
+                                        coded my resume using Bootstrap and custom CSS.
+                                    </li>
+
+                                    <li>Created a travel blog and real estate business using Bootstrap framework.
+                                    </li>
+
+                                    <li>Built a color flipper and a quiz box using Java Script
+                                    </li>
+                                    <li>Created an online menu with order functions using Java Script.</li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!--experience2-->
+                        <div class="bigBox-experience">
+                            <!--experience1-->
+                            <div class="year">
+                                <h6>2012 - 2015</h6>
+
+                            </div>
+                            <div class="expe-details">
+
+                                <h5>Wildlife Artists, Inc (Toy Company)</h5>
+                                <address>Bethel, Connecticut</address>
+                                <h6>Junior Business Analyst</h6>
+                                <ul>
+                                    <li>Worked with an operation team and a financial team to create a business model
+                                        and logical data models for efficient budget management strategies such as
+                                        improving cash flow.
+                                    </li>
+
+                                    <li>Assisted in analyzing root causes of missteps in the business by evaluating
+                                        areas of concern; made suggestions on improvements on quality of operations,
+                                        products and managing cost.
+                                    </li>
+
+                                    <li>Communicated with a sales team and a development team in examining and improving
+                                        project sales, product lines and existing business strategies.
+                                    </li>
+
+                                    <li>
+                                        Worked with clients to meet their requirements to identify business plans and
+                                        goals.
+                                    </li>
+                                    <li>
+                                        Provided the management team with the accurate data analytics relevant to
+                                        revenue, expense, sales, capacity, and utilization.
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!--experience3-->
+                        <div class="bigBox-experience">
+                            <!--experience1-->
+                            <div class="year">
+                                <h6>July–Dec 2009</h6>
+
+                            </div>
+                            <div class="expe-details">
+
+                                <h5>AXA Advisor, LLC </h5>
+                                <address>New York, NY</address>
+                                <h6>Financial Advisor Internship</h6>
+                                <ul>
+                                    <li>Conducted market research to determine the match between clients’ investment and
+                                        their goals
+                                    </li>
+
+                                    <li>Generated sample client portfolios with supervision.
+                                    </li>
+
+                                    <li>Assisted in organizing a financial education seminar for clients and potential
+                                        clients
+                                    </li>
+                                    <li>
+                                        Collaborated with wealth management team to gain new potential clients via
+                                        marketing campaign.
+                                    </li>
+                                    <li>
+                                        Assisted in creating reports that resulted in better understanding of current
+                                        performance.
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--education-->
+
+
+                    <h4 class="mb-3 pl-3 moveExperience">Education</h4>
+                    <!--mb is bootrp class for margin bottom-->
+                    <hr>
+                    <!--hr make line-->
+
+                    <div class="bigBox-experience">
+                        <!--experience1-->
+                        <div class="year">
+                            <h6></h6>
+
+                        </div>
+                        <div class="expe-details">
+
+                            <h6>Associate Degree in Computer Science,<br> Majoring in Web Development</h6>
+
+                            <p>Norwalk Community College, Norwalk, Connecticut</p>
+
+                            <p class="graduate">GPA: 3.3 |Graduation: August 2023</p>
+                            <h6>Coursework:</h6>
+                            <p>Computer Fundamentals, Web Development, Web Design, Database Management system, Object –
+                                Oriented Programming.</p>
+
+                            <h6>Master Degree in Finance</h6>
+                            <p>Long Island University, Brooklyn, New york</p>
+                            <p class="graduate mb-4">GPA: 3.4 |Graduation: 2010 </p>
+                            <!--mb-4 make margin bottom-->
+
+                            <h6>Bacholor Degree in Commuinication</h6>
+                            <p>Payap University, Chiangmai, Thailand</p>
+                            <p class="graduate">GPA: 3.5 |Graduation: 2000</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!--Certificates section-->
+                    <h4 class="mb-3 pl-3 moveExperience targetCertifiicates">Certificates</h4>
+                    <!--mb is bootrp class for margin bottom-->
+                    <hr>
+                    <!--hr make line-->
+ <!--certificate1-->
+ <div class="bigBox-experience">
+    <div class="year pl-3">
+        <h6>2023</h6>
+
+    </div>
+    <div class="expe-details">
+
+        <p>React.js from W3Schools </p>
+    </div>
+
+</div>
+
+                    <!--certificate1-->
+                    <div class="bigBox-experience">
+                        <div class="year pl-3">
+                            <h6>2023</h6>
+
+                        </div>
+                        <div class="expe-details">
+
+                            <p>JavaScript Algorithm and Data Structures Certification from FreeCodeCamp</p>
+                        </div>
+
+                    </div>
+                    <!--certificate2-->
+                    <div class="bigBox-experience">
+                        <!--experience1-->
+                        <div class="year pl-3">
+                            <h6>2022</h6>
+
+                        </div>
+                        <div class="expe-details">
+
+                            <p>Bootstrap from FreeCodeCamp</p>
+                        </div>
+
+                    </div>
+
+                    <!--certificate3-->
+                    <div class="bigBox-experience">
+                        <!--experience1-->
+                        <div class="year pl-3">
+                            <h6>2022</h6>
+
+                        </div>
+                        <div class="expe-details">
+
+                            <p>Advance HTML & CSS from W3Schools</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!---right side personal info-->
+                <div class="col-lg-4 p-5">
+                    <!--p is padding bootstrap-->
+                    <div class="personalInfo">
+
+
+                        <h4 class="moveExperience controlOnlyPersonalInfo">Personal Info</h4>
+                        <hr>
+                        <div class="contactMe targetContactMePhoneIpad">
+
+                            <h5>Address</h5>
+                            <p>Connecticut</p>
+                            <h5>Phone</h5>
+                            <p><a href="tel:3474419148">347-441-9148</a></p>
+                            <h5>E-mail</h5>
+                            <p><a href="mailto:SukanyaT2022A@gmail.com">SukanyaT2022A@gmail.com</a></p>
+                            <h5>LinkedIn</h5>
+                            <p><a
+                                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">www.linkedin.com/in/tiparpron-sukanya</a>
+                            </p>
+                            <h5>GitHub</h5>
+                            <p><a
+                                    href="https://github.com/SukanyaT2022?tab=repositories">https://github.com/SukanyaT2022?tab=repositories</a>
+                            </p>
+                        </div>
+
+
+                        <h4 class="mt-5 moveExperience targetWordSkills">Skills</h4>
+                        <hr>
+
+
+                        <!--React-->
+                        <div class="skill">
+                            <p>React</p>
+                            <div class="dot targetReactPhoneDot">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Good</p>
+                            </div>
+                        </div>
+
+                        <div class="skill">  
+                            <p>HLML</p>
+                            <div class="dot ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <p>Excellent</p>
+                            </div>
+                        </div>
+                        <!--CSS-->
+                        <div class="skill">
+                            <p>CSS</p>
+                            <div class="dot ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <p>Excellent</p>
+                            </div>
+                        </div>
+                        <!--JavaScript-->
+
+                        <div class="skill">
+                            <p>JavaScript</p>
+                            <div class="dot moveForPhone ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <p>Excellent</p>
+                            </div>
+                        </div>
+
+                        <!--Bootstrap-->
+                        <div class="skill">
+                            <p>Bootstrap</p>
+                            <div class="dot moveForPhone ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <p>Excellent</p>
+                            </div>
+                        </div>
+                         <!--Tailwind-->
+                         <div class="skill">
+                            <p>Tailwind CSS</p>
+                            <div class="dot targetReactPhoneDot">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Good</p>
+                            </div>
+                        </div>
+
+                        <!--Responsive Design-->
+                        <div class="skill">
+                            <p>Responsive Design <br> & Mobile First Websites</p>
+                            <div class="dot moveForPhone ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <p>Excellent</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>mySQL</p>
+                            <div class="dot moveDot ">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+
+                        <!--Azure-->
+                        <div class="skill">
+                            <p>Azure</p>
+                            <div class="dot moveDot">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+
+                        <!--Docker-->
+                        <div class="skill">
+                            <p>Docker</p>
+                            <div class="dot moveDot">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+
+                        <!--PHP-->
+                        <div class="skill">
+                            <p>PHP</p>
+                            <div class="dot moveDot">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+
+
+
+
+                        <!--Swift-->
+                        <div class="skill">
+                            <p>Swift</p>
+                            <div class="dot moveDot2">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>In Progress</p>
+                            </div>
+                        </div>
+                        <!--pwa-->
+                        <div class="skill">
+                            <p>PWA</p>
+                            <div class="dot moveDot2">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <p>In Progress</p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+       
+
+
+
+     <!--social media section-->
+     <div class="socialMedia footerSocialMedia col-lg-12">
+        <a href=" ">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href=" "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href=" "><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<!--footer-->
+<!--hr tag crate line
+<hr>
+-->
+<footer>
+    <p>copyright&copy 2022 Tiparpron Sukanya</p>
+    <!--&copy give circle copy right-->
+</footer>
+
+<!--java script-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

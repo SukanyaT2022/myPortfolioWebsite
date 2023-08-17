@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="port.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="react.css" />
+
+  <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+  <!--icon social media and icon from font awesome link-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet" />
+
+  <title>React.js projects Page</title>
+</head>
+
+<body>
+  <!--navBar-->
+  <header>
+    <nav class="navbar navbar-expand-lg backgroundChange">
+      <!--important to remove- navbar-light so we can change text color on css-->
+      <!--style="background-color: pink--if put inline css-->
+      <a class="navbar-brand" href="index.html"><img src="RealLogo2.png"></a>
+      <!--add only 1 br so sukanya move to another line-->
+      <!--span tag we use for logo and small change-->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!--
+                <ul class="navbar-nav">
+                    -->
+        <!--put m-auto after nav bar inside""--move the whole bloc of home-resume to the center-->
+
+        <ul class="navbar-nav m-auto">
+          <!--move the whole bar home contact to right use mr to center use only m 
+          and ml for move to right side -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <!-- how to change color in line css--add style
+                   <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutMe.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="react.html">React Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="swift.html">IOS & Swift Projects</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacts</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="CVupdateAug2023.pdf" download=""><button
+                class="button-downloadCV">Download CV
+                <i class="fa-solid fa-chevron-down"></i></button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--main page-->
+  <div class="mainboxProject reduceMargin">
+    <div class="row">
+      <div class="col-lg-8 smallBox">
+   <!--start project children clothes website-->
+   <div class="row my-2">
+    <div class="col-lg-5 orangeBox-leftside">
+      <div class="oceanPic">
+        <img
+          src="https://images.unsplash.com/photo-1597413545419-4013431dbfec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGtpZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+          alt="shopping cart" />
+      </div>
+
+    </div>
+    <div class="col-lg-6 orangeBox-rightside">
+
+      <h4 class="project1">Kids Designer Clothes</h4>
+      <h5>Built with: React, JavaScript, JSON </h5>
+      <a href="https://react-js-children-fashion.vercel.app/">Link</a>
+      <!--after host put url here-->
+
+    </div>
+  </div>
+  <!--end project children website-->
+
+        <!--start project wineShop-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2luZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                alt="shopping cart" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Wine Shop</h4>
+            <h5>Built with: React, JavaScript, JSON </h5>
+            <a href="https://react-wine-shop-interface.vercel.app/">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project wineshop-->
+
+        <!--start project before 1-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1614110073736-1778d27f588a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvcHBpbmclMjBjYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                alt="shopping cart" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Shopping Cart</h4>
+            <h5>Built with: React, JavaScript, JSON </h5>
+            <a href="https://stalwart-longma-b29c72.netlify.app/">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project before 1-->
+
+        <!--start project 2Travel-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                alt="ocean" />
+            </div>
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Snap Shot</h4>
+            <h5>Built with:&nbsp;React, JavaScript</h5>
+            <a href="https://stellar-babka-c67ce5.netlify.app/">Link</a>
+            <!--&nbsp; add space on html-->
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 2Travel-->
+
+
+        <!--start project 3-national park-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/03/28/13/02/lists-6131220_1280.jpg"
+                alt="to do lists" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">To Do Lists</h4>
+            <h5>Built with: React, JavaScript</h5>
+            <a href="https://jolly-cuchufli-4c2034.netlify.app">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 3 national park website-->
+
+
+        <!--project4 TuxedoShop-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1585141239600-03449aab6e10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW4lMjBwcm9ncmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                alt="nationalPark" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Work in Progress</h4>
+            <h5>Built with: React, JavaScript</h5>
+            <a href="https://meek-chimera-59f2b1.netlify.app">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project4 TuxedoShop-->
+
+    
+        <!--start project 7-->
+        <div class="row my-2">
+          <div class="col-lg-5 orangeBox-leftside">
+            <div class="oceanPic">
+              <img
+                src="https://images.unsplash.com/photo-1585141239600-03449aab6e10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW4lMjBwcm9ncmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                alt="nationalPark" />
+            </div>
+
+          </div>
+          <div class="col-lg-6 orangeBox-rightside">
+
+            <h4 class="project1">Work in Progress</h4>
+            <h5>Built with: React, JavaScript</h5>
+            <a href="putlinkhere">Link</a>
+            <!--after host put url here-->
+
+          </div>
+        </div>
+        <!--end project 8-->
+
+        <!--below is end div for main box and small box-->
+      </div>
+
+    </div>
+
+  </div>
+ <!--footer-->
+
+  <!--social media section-->
+  <div class="socialMedia footerSocialMedia col-lg-12">
+    <a href=" ">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a href=" "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href=" "><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+</div>
+</div>
+
+<!--footer-->
+<!--hr tag crate line
+<hr>
+-->
+<footer>
+<p>copyright&copy 2022 Tiparpron Sukanya</p>
+<!--&copy give circle copy right-->
+</footer>
+
+  <!--java script-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

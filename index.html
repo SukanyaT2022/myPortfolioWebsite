@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="port.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+    <!--icon social media and icon from font awesome link-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet" />
+
+    <title>MainPage</title>
+</head>
+
+<body>
+    <!--navBar-->
+    <header>
+        <nav class="navbar navbar-expand-lg backgroundChange">
+            <!--important to remove- navbar-light so we can change text color on css-->
+            <!--style="background-color: pink--if put inline css-->
+
+            <a class="navbar-brand" href="index.html"><img src="RealLogo2.png" /></a>
+            <!--add only 1 br so sukanya move to another line-->
+            <!--span tag we use for logo and small change-->
+
+            <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!--
+                <ul class="navbar-nav">
+                    -->
+                <!--put m-auto after nav bar inside""--move the whole bloc of home-resume to the center-->
+
+                <ul class="navbar-nav m-auto">
+                    <!--move the whole bar home contact to right use mr to center use only m 
+                    and ml for move to right side -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <!-- how to change color in line css--add style
+                             <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="react.html">React Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="swift.html">IOS & Swift Projects</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts</a>
+                    </li>
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="CVupdateAug2023.pdf"  download=""><button class="button-downloadCV">Download CV
+                                <i class="fa-solid fa-chevron-down"></i></button></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--mainpage-->
+    <div class="row">
+        <div class="pic-child1 col-lg-5">
+            <!--total 12 so we make two column so devide by 5 and 6 and 1-->
+
+            <div class="facePics">
+                <img src="SukanyaT33.jpg" />
+            </div>
+        </div>
+
+        <!--Text right side section-->
+        <div class="text-child2 col-lg-6">
+            <div class="circle">
+                <h2>Tiparpron <span>Sukanya</span></h2>
+            </div>
+
+            <h2 class="frontEnd">Front-End Developer</h2>
+            <h4>Hi, I'm Tiparpron!</h4>
+            <p>
+                A front-end developer who passionate about creating unique and
+                engaging user-friendly experiences on the web. <span class="nextLine">I enjoy building
+                    websites from small to commercial businesses to help grow your
+                    customer base.</span>
+            </p>
+
+            <a href="contact.html">
+                <div>
+                    <button class="contact-me">
+                        CONTACT ME <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </a>
+        </div>
+        <!--social media section-->
+     <div class="socialMedia  col-lg-1">
+        <a href=" ">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href=" "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href=" "><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<!--footer-->
+<!--hr tag crate line
+<hr>
+-->
+<footer>
+    <p>copyright&copy 2022 Tiparpron Sukanya</p>
+    <!--&copy give circle copy right-->
+</footer>
+    <!--java script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

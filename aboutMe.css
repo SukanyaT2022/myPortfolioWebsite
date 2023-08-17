@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*mainbox-control all*/
+.backgroundIMG {
+  margin-top: 60px;
+}
+
+.frame {
+  height: 400px;
+  width: 350px;
+  border: 10px solid white;
+} /*boxcenter is pic section*/
+
+.boxCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('photo1.JPG');
+  background-position: center center;
+  background-size: 70%, 70%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.frame h1 {
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.textSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px 100px 0px 0px; /*top right bottom left*/
+  text-align: justify;
+}
+footer {
+  background-color: white;
+}
+.reduceSpaceFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nextline {
+  display: block;
+}
+
+/* social media footer */
+.footerSocialMedia{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.socialMedia{
+  margin-top: 40px;
+}
+.socialMedia a{
+margin: 15px 20px -20px 20px ;
+
+}
+footer{
+  background-color: #e9dbd8;
+}
+
+
+
+/*media queries*/
+/*ipad air*/
+@media screen and (max-width: 820px) {
+  .textSection {
+    padding: 0px 100px 0px 100px;
+  }
+  .frame {
+    height: 400px;
+    width: 400px;
+    border: 10px solid white;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .nextline {
+    display: inline;
+  }
+  footer p{
+    margin-top: 0px;
+  }
+  .socialMedia{
+    margin-top: 0px;
+  }
+  
+  .smallBox {
+    margin-bottom: 0px;
+  }
+  .socialMedia a{
+    margin: 15px 5px -20px 5px ;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .boxCenter {
+    padding: 30px 0px;
+  }
+  .textSection {
+    padding: 30px;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+  .frame {
+    height: 400px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .frame {
+    height: 300px;
+    width: 300px;
+  }
+}
+/*phone*/
+@media screen and (max-width: 400px) {
+  .frame {
+    height: 300px;
+    width: 250px;
+  }
+  .textSection {
+    padding: 10px;
+    text-align: left;
+  }
+  .textSection span {
+    display: block;
+  }
+
+  footer {
+    position: relative;
+   
+  }
+  .boxCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('photo1.JPG');
+    background-position: center center;
+    background-size: 70%, cover; /*70% for image and cover is filer*/
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+
+  .moveBoxUp{
+    margin-top: -90px;
+  }
+}
